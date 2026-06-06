@@ -20,3 +20,5 @@ class Config:
         model=MODEL,
         openai_client=github_client
     )
+
+    SHORTCUT_LINK = "https://www.icloud.com/shortcuts/f90a069aa3b1452d9a55ea64afde043c"

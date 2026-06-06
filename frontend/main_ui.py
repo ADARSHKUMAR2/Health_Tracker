@@ -6,7 +6,7 @@ from pathlib import Path
 
 # --- Configuration ---
 # Ensure this matches the route you verified in your FastAPI backend
-BACKEND_URL = "http://localhost:8000/health-chat"
+BACKEND_URL = "http://localhost:8000/api/health-chat"
 
 st.set_page_config(page_title="Health AI Coach", page_icon="🩺", layout="wide")
 st.title("🩺 Personal Health AI")
